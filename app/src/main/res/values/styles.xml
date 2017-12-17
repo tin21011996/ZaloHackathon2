@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FE5196</item>
+        <item name="colorPrimaryDark">#FE5196</item>
+        <item name="colorAccent">#FE5196</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Signup" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FE5196</item>
+        <item name="colorPrimaryDark">#FE5196</item>
+        <item name="colorAccent">#FE5196</item>
+    </style>
+
+</resources>

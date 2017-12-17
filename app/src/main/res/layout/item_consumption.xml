@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:weightSum="20"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <ImageView
+        android:id="@+id/img_con"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="8"
+        android:src="@drawable/rsz_healthy1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_con1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Large Text"
+            android:gravity="top"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textColor="#F77062"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/txt_con2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Large Text"
+            android:textSize="18dp"
+            android:paddingBottom="5dp"
+            android:gravity="bottom"
+            android:layout_weight="1"
+            android:textColor="#7B7676"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:weightSum="1"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/txt_con3"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="30:30s"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:background="@drawable/roundtext"
+            android:layout_weight="1"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+</LinearLayout>
